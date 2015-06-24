@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='gui_setup_test',
+    name='testgui',
     version='0.1.4',
-    packages=find_packages(),
+    packages=['tester'],
     url='',
     license='',
     author='California Audio Visual Preservation Project',
     author_email='hborcher@berkeley.edu',
     description='',
     zip_safe=False,
-    entry_points={"gui_scripts": ["guiTest = tester.testGui:main"]}
+    entry_points={"console_scripts": ["guiTest = tester.testGui:main"]}
 )
