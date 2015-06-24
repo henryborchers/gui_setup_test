@@ -9,5 +9,6 @@ setup(
     author='California Audio Visual Preservation Project',
     author_email='hborcher@berkeley.edu',
     description='',
+    zip_safe=False,
     entry_points={"gui_scripts": ["guiTest = tester.testGui:main"]}
 )
