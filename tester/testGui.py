@@ -1,11 +1,14 @@
 __author__ = 'California Audio Visual Preservation Project'
-import tkinter
-
+import sys
+if sys.version_info > (3,0):
+    from tkinter import *
+else:
+    from Tkinter import *
 def main():
     print("Hello")
-    root = tkinter.Tk()
+    root = Tk()
     # w = tkinter.Label(root, text="Hello World")
-    w = tkinter.Button(root, text="Close Me", command=callback)
+    w = Button(root, text="Close Me", command=callback)
     w.pack()
     root.mainloop()
 
