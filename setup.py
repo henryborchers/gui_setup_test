@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='gui_setup_test',
     version='0.1.4',
-    packages=['tester'],
+    packages=[''],
     url='',
     license='',
     author='California Audio Visual Preservation Project',
