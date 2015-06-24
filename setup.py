@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gui_setup_test',
-    version='0.1.1',
+    version='0.1.2',
     packages=['tester'],
     url='',
     license='',
